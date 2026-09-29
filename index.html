@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>COALITION KOMBAT — political parody fighter</title>
+<meta name="description" content="A satirical cartoon fighting game: Israeli politicians, parody special moves, zero real violence. Not affiliated with anyone."/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🥊</text></svg>"/>
+<style>
+ html,body{margin:0;background:#07080f;color:#cfd6e4;font-family:Arial,Helvetica,sans-serif;display:flex;flex-direction:column;align-items:center;min-height:100vh}
+ #wrap{width:min(97vw,1180px)}
+ canvas{width:100%;aspect-ratio:16/9;display:block;background:#000;border:1px solid #2c3550;border-radius:12px;box-shadow:0 0 40px #16f0ff22,0 0 120px #ff2d5522}
+ #foot{display:flex;gap:24px;justify-content:center;flex-wrap:wrap;padding:12px 6px 6px;font-size:13px;color:#8a93a8;text-align:center}
+ b.k{background:#1a2138;border:1px solid #39456b;border-radius:5px;padding:1px 7px;color:#e8ecf5;font-family:monospace}
+ .tag{margin-top:10px;font-size:12px;color:#66708a;max-width:900px;text-align:center;line-height:1.6;padding-bottom:26px}
+</style>
+</head>
+<body>
+<div id="wrap"><canvas id="game" width="960" height="540"></canvas></div>
+<div id="foot">
+ <span>P1: <b class="k">A</b><b class="k">D</b> move · <b class="k">W</b> jump · <b class="k">S</b> block · <b class="k">F</b> punch · <b class="k">G</b> kick · <b class="k">H</b> special · <b class="k">E</b> mega</span>
+ <span>P2: <b class="k">←</b><b class="k">→</b><b class="k">↑</b><b class="k">↓</b> · <b class="k">K</b> punch · <b class="k">L</b> kick · <b class="k">O</b> special · <b class="k">P</b> mega</span>
+ <span><b class="k">M</b> sound · <b class="k">ESC</b> menu · keyboard required</span>
+</div>
+<div class="tag">COALITION KOMBAT is political satire &amp; parody. Cartoon comedy violence only — no blood, no gore, nobody was harmed (they barely noticed). Not affiliated with or endorsed by any person, party, or the Knesset. Built with Claude's help, which agreed to disagree. 🍾</div>
+<noscript>Enable JavaScript to play.</noscript>
+<script src="game.js"></script>
+</body>
+</html>
